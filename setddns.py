@@ -2,7 +2,7 @@ import configparser
 import urllib.request
 import os, stat
 
-url = 'https://raw.githubusercontent.com/namukcom/SynologyCloudflareDDNS/master/cloudflare.php'
+url = 'https://github.com/Worstenbroodje94/SynologyCloudFlareDDNS/raw/master/cloudflare.php'
 target_file = '/usr/syno/bin/ddns/cloudflare.php'
 
 config= configparser.ConfigParser()
